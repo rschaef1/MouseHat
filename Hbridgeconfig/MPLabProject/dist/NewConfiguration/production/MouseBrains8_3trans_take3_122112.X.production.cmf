@@ -1,0 +1,1822 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 4B 4B 2 2
+config CONFIG 4 8007 8007 2 2
+$dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+cinit CODE 0 4D 4D 3A 2
+text1 CODE 0 EAD EAD 3C 2
+text2 CODE 0 C2D C2D 20 2
+text3 CODE 0 87 87 336 2
+text4 CODE 0 F84 F84 5C 2
+text5 CODE 0 608 608 6C 2
+text6 CODE 0 C11 C11 1C 2
+text7 CODE 0 6E0 6E0 66 2
+text8 CODE 0 AB7 AB7 5 2
+text9 CODE 0 3BD 3BD A7 2
+text10 CODE 0 E3F E3F 34 2
+text11 CODE 0 746 746 60 2
+text12 CODE 0 F29 F29 5B 2
+text13 CODE 0 CB6 CB6 25 2
+text14 CODE 0 CDB CDB 26 2
+text15 CODE 0 D52 D52 2A 2
+text16 CODE 0 C6F C6F 22 2
+text17 CODE 0 D29 D29 29 2
+text18 CODE 0 D01 D01 28 2
+text19 CODE 0 B78 B78 12 2
+text20 CODE 0 DA8 DA8 31 2
+text21 CODE 0 58A 58A 7E 2
+text22 CODE 0 EE9 EE9 40 2
+text23 CODE 0 AEC AEC 6 2
+text24 CODE 0 B18 B18 A 2
+text25 CODE 0 E0C E0C 33 2
+text26 CODE 0 4FA 4FA 90 2
+text27 CODE 0 D7C D7C 2C 2
+text28 CODE 0 BC8 BC8 17 2
+text29 CODE 0 7A6 7A6 44 2
+text30 CODE 0 C91 C91 25 2
+text31 CODE 0 AA2 AA2 3 2
+text32 CODE 0 B8A B8A 13 2
+text33 CODE 0 AE6 AE6 6 2
+text34 CODE 0 B06 B06 8 2
+text35 CODE 0 BDF BDF 18 2
+text36 CODE 0 AE0 AE0 6 2
+text37 CODE 0 B66 B66 12 2
+text38 CODE 0 ADA ADA 6 2
+text39 CODE 0 DD9 DD9 33 2
+text40 CODE 0 AFE AFE 8 2
+text41 CODE 0 AA9 AA9 4 2
+text42 CODE 0 AA5 AA5 4 2
+text43 CODE 0 B2D B2D C 2
+text44 CODE 0 AD4 AD4 6 2
+text45 CODE 0 C4D C4D 22 2
+text46 CODE 0 ACE ACE 6 2
+text47 CODE 0 AC8 AC8 6 2
+text48 CODE 0 AC2 AC2 6 2
+text49 CODE 0 ABC ABC 6 2
+text50 CODE 0 B22 B22 B 2
+text52 CODE 0 B46 B46 F 2
+text53 CODE 0 E73 E73 3A 2
+text54 CODE 0 BB1 BB1 17 2
+text55 CODE 0 B0E B0E A 2
+text56 CODE 0 AB2 AB2 5 2
+text57 CODE 0 B55 B55 11 2
+text58 CODE 0 2 2 1 2
+text59 CODE 0 AA1 AA1 1 2
+text60 CODE 0 AAD AAD 5 2
+text61 CODE 0 B39 B39 D 2
+text62 CODE 0 674 674 6C 2
+nvBANK1 BANK1 1 D4 D4 14 1
+idataCOMMON CODE 0 3 3 1 2
+maintext CODE 0 464 464 96 2
+cstackCOMMON COMMON 1 70 70 8 1
+cstackBANK0 BANK0 1 20 20 50 1
+cstackBANK1 BANK1 1 E8 E8 8 1
+inittext CODE 0 AF8 AF8 6 2
+stringtext1 STRCODE 0 86A 86A 2 2
+stringtext2 STRCODE 0 86C 86C 2 2
+stringtext3 STRCODE 0 7EA 7EA 19 2
+stringtext4 STRCODE 0 803 803 17 2
+stringtext5 STRCODE 0 81A 81A 15 2
+stringtext6 STRCODE 0 82F 82F 14 2
+stringtext7 STRCODE 0 843 843 14 2
+stringtext8 STRCODE 0 857 857 13 2
+intentry CODE 0 4 4 47 2
+bssBANK1 BANK1 1 A0 A0 1A 1
+bssBANK2 BANK2 1 120 120 20 1
+bssBANK3 BANK3 1 1A0 1A0 21 1
+idataBANK1 CODE 0 BF7 BF7 1A 2
+idataBANK2 CODE 0 B9D B9D 14 2
+dataBANK1 BANK1 1 BA BA 1A 1
+dataBANK2 BANK2 1 140 140 14 1
+dataCOMMON COMMON 1 7A 7A 1 1
+_HEF_persistent_state_text STRCODE 0 FE0 FE0 20 2
+clrtext CODE 0 AF2 AF2 6 2
+bssCOMMON COMMON 1 78 78 2 1
+config CONFIG 4 8007 8007 2 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 154-16F 1
+RAM 1C1-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-32F 1
+BANK2 154-16F 1
+BANK3 1C1-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-32F 1
+CONST 86E-AA0 2
+ENTRY 86E-AA0 2
+IDLOC 8000-8003 2
+SFR10 500-56F 1
+SFR11 580-5EF 1
+SFR12 600-66F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+STACK 2111-21EF 1
+CODE 86E-AA0 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-3EF 1
+SFR8 400-46F 1
+SFR9 480-4EF 1
+BIGRAM 2000-21EF 1
+COMMON 7B-7D 1
+STRCODE 86E-AA0 2
+STRING 86E-AA0 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+4D cinit CODE >7756:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+4D cinit CODE >7759:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+4D cinit CODE >7889:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+50 cinit CODE >7890:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+51 cinit CODE >7894:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+52 cinit CODE >7895:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+53 cinit CODE >7896:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+54 cinit CODE >7897:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+55 cinit CODE >7898:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+56 cinit CODE >7899:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+57 cinit CODE >7900:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+58 cinit CODE >7901:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+59 cinit CODE >7902:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+5A cinit CODE >7903:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+5D cinit CODE >7907:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+5E cinit CODE >7908:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+5F cinit CODE >7909:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+60 cinit CODE >7910:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+61 cinit CODE >7911:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+62 cinit CODE >7912:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+63 cinit CODE >7913:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+64 cinit CODE >7914:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+65 cinit CODE >7915:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+66 cinit CODE >7916:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+69 cinit CODE >7933:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+6A cinit CODE >7934:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+6B cinit CODE >7938:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+6C cinit CODE >7939:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+6D cinit CODE >7940:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+6E cinit CODE >7941:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+6F cinit CODE >7942:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+70 cinit CODE >7943:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+73 cinit CODE >7947:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+74 cinit CODE >7948:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+75 cinit CODE >7949:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+76 cinit CODE >7950:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+77 cinit CODE >7951:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+78 cinit CODE >7952:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+7B cinit CODE >7956:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+7C cinit CODE >7957:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+7D cinit CODE >7958:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+7E cinit CODE >7959:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+7F cinit CODE >7960:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+80 cinit CODE >7961:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+83 cinit CODE >7967:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+83 cinit CODE >7969:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+84 cinit CODE >7970:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+85 cinit CODE >7971:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+4 intentry CODE >52:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+E intentry CODE >57:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+11 intentry CODE >58:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+12 intentry CODE >59:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+1A intentry CODE >61:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+1D intentry CODE >62:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+1E intentry CODE >63:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+26 intentry CODE >65:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+29 intentry CODE >66:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+2A intentry CODE >67:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+2E intentry CODE >69:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+38 intentry CODE >71:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+3B intentry CODE >76:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+3B intentry CODE >77:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+45 intentry CODE >78:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+49 intentry CODE >84:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+49 intentry CODE >85:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/interrupt_manager.c
+674 text62 CODE >75:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+674 text62 CODE >77:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+679 text62 CODE >78:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+67A text62 CODE >81:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+67E text62 CODE >82:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+67F text62 CODE >84:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+680 text62 CODE >86:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+681 text62 CODE >89:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+683 text62 CODE >89:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+689 text62 CODE >89:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+68D text62 CODE >90:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+68E text62 CODE >91:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+691 text62 CODE >99:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+698 text62 CODE >100:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+69A text62 CODE >100:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6A0 text62 CODE >100:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6A4 text62 CODE >104:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6A5 text62 CODE >105:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6A9 text62 CODE >106:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6AC text62 CODE >106:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6B2 text62 CODE >106:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6B7 text62 CODE >113:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6B8 text62 CODE >114:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6B9 text62 CODE >116:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6BF text62 CODE >119:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6C1 text62 CODE >119:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6C5 text62 CODE >120:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6C9 text62 CODE >121:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6CA text62 CODE >133:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6D0 text62 CODE >133:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6D5 text62 CODE >133:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6D8 text62 CODE >133:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6DB text62 CODE >133:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6DE text62 CODE >135:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+6DF text62 CODE >136:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+B39 text61 CODE >62:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+B39 text61 CODE >65:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+B40 text61 CODE >67:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+B45 text61 CODE >69:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+AAD text60 CODE >54:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+AAD text60 CODE >56:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+AAE text60 CODE >59:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+AB1 text60 CODE >60:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+AA1 text59 CODE >121:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+AA1 text59 CODE >123:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+2 text58 CODE >130:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+2 text58 CODE >135:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B55 text57 CODE >109:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B55 text57 CODE >113:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B56 text57 CODE >115:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B59 text57 CODE >117:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B60 text57 CODE >119:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B65 text57 CODE >123:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+AB2 text56 CODE >66:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/dac.c
+AB3 text56 CODE >68:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/dac.c
+AB6 text56 CODE >69:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/dac.c
+B0E text55 CODE >133:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+B0E text55 CODE >136:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+B10 text55 CODE >137:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+B14 text55 CODE >138:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+B16 text55 CODE >139:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+B17 text55 CODE >167:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BB1 text54 CODE >111:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BB1 text54 CODE >115:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BB3 text54 CODE >117:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BBB text54 CODE >119:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BC2 text54 CODE >121:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BC7 text54 CODE >125:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+E73 text53 CODE >147:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E73 text53 CODE >148:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E75 text53 CODE >152:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E7A text53 CODE >153:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E7E text53 CODE >154:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E7F text53 CODE >156:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E84 text53 CODE >158:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E88 text53 CODE >162:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E89 text53 CODE >163:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E8F text53 CODE >164:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E96 text53 CODE >165:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E9A text53 CODE >166:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+E9C text53 CODE >168:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+EA0 text53 CODE >169:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+EA1 text53 CODE >172:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+EA6 text53 CODE >187:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+EAB text53 CODE >189:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+EAC text53 CODE >197:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B46 text52 CODE >120:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B46 text52 CODE >124:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B48 text52 CODE >126:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B4F text52 CODE >128:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B54 text52 CODE >130:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B22 text50 CODE >581:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B22 text50 CODE >582:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B24 text50 CODE >583:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B25 text50 CODE >585:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B26 text50 CODE >586:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B27 text50 CODE >587:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B29 text50 CODE >588:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B2A text50 CODE >590:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B2B text50 CODE >591:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B2C text50 CODE >592:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+ABC text49 CODE >58:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/dac.c
+ABC text49 CODE >61:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/dac.c
+ABF text49 CODE >63:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/dac.c
+AC1 text49 CODE >64:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/dac.c
+AC2 text48 CODE >174:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+AC2 text48 CODE >175:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+AC7 text48 CODE >176:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+AC8 text47 CODE >166:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+AC8 text47 CODE >167:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+ACD text47 CODE >168:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+ACE text46 CODE >170:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+ACE text46 CODE >171:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+AD3 text46 CODE >172:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C4D text45 CODE >66:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C4D text45 CODE >71:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C50 text45 CODE >74:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C52 text45 CODE >77:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C54 text45 CODE >80:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C56 text45 CODE >83:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C57 text45 CODE >86:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C5E text45 CODE >87:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C65 text45 CODE >88:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C6C text45 CODE >90:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+C6E text45 CODE >92:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+AD4 text44 CODE >71:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+AD4 text44 CODE >72:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+AD9 text44 CODE >73:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+B2D text43 CODE >138:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+B2D text43 CODE >143:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+B2E text43 CODE >144:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+B30 text43 CODE >146:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+B37 text43 CODE >147:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+B38 text43 CODE >149:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/ext_int.c
+AA5 text42 CODE >58:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/opa1.c
+AA5 text42 CODE >61:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/opa1.c
+AA8 text42 CODE >62:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/opa1.c
+AA9 text41 CODE >58:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/opa2.c
+AA9 text41 CODE >61:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/opa2.c
+AAC text41 CODE >62:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/opa2.c
+AFE text40 CODE >66:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+AFE text40 CODE >69:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+B01 text40 CODE >71:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+B02 text40 CODE >73:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+B03 text40 CODE >75:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+B05 text40 CODE >76:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+DD9 text39 CODE >55:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DD9 text39 CODE >60:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DDB text39 CODE >61:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DDC text39 CODE >62:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DDD text39 CODE >67:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DE0 text39 CODE >68:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DE2 text39 CODE >69:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DE4 text39 CODE >74:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DE7 text39 CODE >75:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DE9 text39 CODE >76:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DEA text39 CODE >81:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DEC text39 CODE >82:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DED text39 CODE >83:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DEE text39 CODE >84:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DF0 text39 CODE >89:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DF2 text39 CODE >90:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DF3 text39 CODE >91:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DF4 text39 CODE >96:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DF7 text39 CODE >97:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DF9 text39 CODE >98:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DFB text39 CODE >103:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+DFE text39 CODE >104:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+E00 text39 CODE >105:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+E02 text39 CODE >113:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+E03 text39 CODE >116:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+E06 text39 CODE >117:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+E08 text39 CODE >118:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+E0B text39 CODE >119:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/pin_manager.c
+ADA text38 CODE >126:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+ADA text38 CODE >127:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+ADF text38 CODE >128:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B66 text37 CODE >65:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B66 text37 CODE >70:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B6B text37 CODE >73:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B6D text37 CODE >76:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B6E text37 CODE >79:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B6F text37 CODE >82:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B70 text37 CODE >85:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+B77 text37 CODE >86:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr0.c
+AE0 text36 CODE >128:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+AE0 text36 CODE >129:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+AE5 text36 CODE >130:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BDF text35 CODE >65:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BDF text35 CODE >73:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BE4 text35 CODE >76:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BE9 text35 CODE >79:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BEB text35 CODE >82:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BED text35 CODE >84:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BEF text35 CODE >87:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+BF6 text35 CODE >88:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\tmr1.c
+B06 text34 CODE >62:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr2.c
+B06 text34 CODE >67:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr2.c
+B09 text34 CODE >70:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr2.c
+B0A text34 CODE >73:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr2.c
+B0B text34 CODE >76:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr2.c
+B0D text34 CODE >77:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr2.c
+AE6 text33 CODE >133:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+AE6 text33 CODE >134:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+AEB text33 CODE >135:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B8A text32 CODE >65:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B8A text32 CODE >70:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B8D text32 CODE >73:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B8E text32 CODE >76:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B90 text32 CODE >79:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B92 text32 CODE >82:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B99 text32 CODE >85:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+B9C text32 CODE >86:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+AA2 text31 CODE >78:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+AA2 text31 CODE >81:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+AA4 text31 CODE >85:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+C91 text30 CODE >50:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+C91 text30 CODE >52:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+C94 text30 CODE >53:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+C97 text30 CODE >54:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+C9A text30 CODE >55:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+C9D text30 CODE >56:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+CA0 text30 CODE >57:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+CA3 text30 CODE >58:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+CA6 text30 CODE >59:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+CA9 text30 CODE >60:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+CAC text30 CODE >61:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+CAF text30 CODE >62:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+CB2 text30 CODE >63:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+CB5 text30 CODE >64:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/mcc.c
+7A6 text29 CODE >173:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7A6 text29 CODE >176:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7A9 text29 CODE >177:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7AD text29 CODE >178:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7AE text29 CODE >182:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7B0 text29 CODE >183:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7B3 text29 CODE >184:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7B6 text29 CODE >185:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7B8 text29 CODE >186:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7BA text29 CODE >187:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7BB text29 CODE >188:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7C0 text29 CODE >189:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7C2 text29 CODE >193:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7C4 text29 CODE >194:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7C7 text29 CODE >195:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7CA text29 CODE >196:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7CC text29 CODE >197:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7CE text29 CODE >198:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7CF text29 CODE >199:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7D4 text29 CODE >200:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7D6 text29 CODE >206:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7D8 text29 CODE >207:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7DB text29 CODE >208:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7E0 text29 CODE >209:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7E2 text29 CODE >210:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7E4 text29 CODE >211:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+7E9 text29 CODE >212:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+BC8 text28 CODE >214:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+BC9 text28 CODE >221:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+BCE text28 CODE >222:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+BD0 text28 CODE >223:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+BD1 text28 CODE >224:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+BD6 text28 CODE >226:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+BD9 text28 CODE >228:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+BDC text28 CODE >230:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+BDE text28 CODE >231:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D7C text27 CODE >235:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D7C text27 CODE >236:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D81 text27 CODE >237:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D87 text27 CODE >238:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D94 text27 CODE >239:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D9A text27 CODE >240:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+DA7 text27 CODE >241:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4FA text26 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+4FA text26 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+4FC text26 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+500 text26 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+505 text26 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+507 text26 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+509 text26 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+50B text26 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+50D text26 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+50D text26 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+511 text26 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+516 text26 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+518 text26 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+51A text26 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+51C text26 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+520 text26 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+528 text26 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+52C text26 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+530 text26 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+532 text26 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+533 text26 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+53A text26 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+53E text26 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+542 text26 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+549 text26 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+54B text26 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+54F text26 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+553 text26 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+557 text26 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+55B text26 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+563 text26 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+564 text26 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+56B text26 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+571 text26 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+576 text26 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+57B text26 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+57D text26 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+57F text26 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+581 text26 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+589 text26 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+E0C text25 CODE >148:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E0C text25 CODE >150:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E0F text25 CODE >151:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E12 text25 CODE >152:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E14 text25 CODE >153:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E19 text25 CODE >154:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E1A text25 CODE >155:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E1B text25 CODE >156:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E1C text25 CODE >157:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E1D text25 CODE >158:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E1E text25 CODE >159:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E20 text25 CODE >160:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E24 text25 CODE >161:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E25 text25 CODE >166:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E3E text25 CODE >167:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B18 text24 CODE >132:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+B19 text24 CODE >134:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+B19 text24 CODE >136:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+B1E text24 CODE >138:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+B21 text24 CODE >139:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+AEC text23 CODE >146:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+AED text23 CODE >148:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+AF1 text23 CODE >149:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/eusart.c
+EE9 text22 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+EE9 text22 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+EF3 text22 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+EF7 text22 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+EF8 text22 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+F18 text22 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+F1C text22 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+F20 text22 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+F26 text22 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+F28 text22 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+58A text21 CODE >692:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+58C text21 CODE >702:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+59D text21 CODE >703:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5A3 text21 CODE >703:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5A5 text21 CODE >705:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5AA text21 CODE >706:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5AE text21 CODE >1372:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5C0 text21 CODE >1373:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5C6 text21 CODE >1373:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5C8 text21 CODE >1374:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5D3 text21 CODE >1375:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5D9 text21 CODE >1379:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5DF text21 CODE >1379:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5E1 text21 CODE >1380:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5E4 text21 CODE >1384:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+5FD text21 CODE >1385:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+604 text21 CODE >1385:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+607 text21 CODE >1387:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DA8 text20 CODE >1390:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DAA text20 CODE >1395:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DAE text20 CODE >1396:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DB1 text20 CODE >1397:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DB2 text20 CODE >1398:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DC6 text20 CODE >1397:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DD0 text20 CODE >1400:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DD8 text20 CODE >1404:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+B78 text19 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\printf.c
+B78 text19 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\printf.c
+B7D text19 CODE >10:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\printf.c
+B89 text19 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\printf.c
+D01 text18 CODE >283:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D01 text18 CODE >284:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D03 text18 CODE >285:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D0D text18 CODE >286:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D1A text18 CODE >287:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D20 text18 CODE >288:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D28 text18 CODE >289:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D29 text17 CODE >312:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D29 text17 CODE >313:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D36 text17 CODE >314:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D43 text17 CODE >315:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D49 text17 CODE >316:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D51 text17 CODE >317:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C6F text16 CODE >298:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C6F text16 CODE >299:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C79 text16 CODE >300:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C82 text16 CODE >301:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C88 text16 CODE >302:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C90 text16 CODE >303:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D52 text15 CODE >275:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D52 text15 CODE >276:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D57 text15 CODE >277:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D60 text15 CODE >278:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D6D text15 CODE >279:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D73 text15 CODE >280:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D7B text15 CODE >281:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CDB text14 CODE >319:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CDB text14 CODE >320:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CE5 text14 CODE >321:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CF2 text14 CODE >322:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CF8 text14 CODE >323:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D00 text14 CODE >324:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CB6 text13 CODE >291:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CB6 text13 CODE >292:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CC3 text13 CODE >293:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CCC text13 CODE >294:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CD2 text13 CODE >295:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CDA text13 CODE >296:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F29 text12 CODE >263:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F29 text12 CODE >265:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F36 text12 CODE >266:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F43 text12 CODE >267:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F49 text12 CODE >268:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F56 text12 CODE >269:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F63 text12 CODE >270:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F70 text12 CODE >271:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F76 text12 CODE >272:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F83 text12 CODE >273:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+746 text11 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+746 text11 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+748 text11 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+74C text11 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+74F text11 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+751 text11 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+753 text11 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+757 text11 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+75A text11 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+75C text11 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+760 text11 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+762 text11 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+768 text11 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+76A text11 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+76B text11 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+770 text11 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+774 text11 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+778 text11 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+77D text11 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+77F text11 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+783 text11 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+787 text11 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+78B text11 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+78C text11 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+791 text11 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+797 text11 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+79C text11 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+79F text11 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+7A1 text11 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+7A5 text11 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+E3F text10 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+E3F text10 CODE >119:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+E47 text10 CODE >121:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+E4C text10 CODE >122:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+E54 text10 CODE >123:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+E5B text10 CODE >124:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+E62 text10 CODE >125:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+E66 text10 CODE >125:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+E6A text10 CODE >128:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+E72 text10 CODE >129:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+3BD text9 CODE >331:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+3BD text9 CODE >333:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+3FD text9 CODE >334:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+443 text9 CODE >335:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+448 text9 CODE >335:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+44C text9 CODE >335:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+455 text9 CODE >336:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+45C text9 CODE >337:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+463 text9 CODE >338:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+AB7 text8 CODE >115:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+AB8 text8 CODE >117:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+ABB text8 CODE >118:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/tmr4.c
+6E0 text7 CODE >342:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+6E0 text7 CODE >358:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+70E text7 CODE >359:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+713 text7 CODE >359:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+717 text7 CODE >359:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+71B text7 CODE >360:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+720 text7 CODE >361:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+720 text7 CODE >362:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+726 text7 CODE >362:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+72A text7 CODE >362:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+72E text7 CODE >363:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+733 text7 CODE >370:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+734 text7 CODE >371:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+739 text7 CODE >372:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+740 text7 CODE >373:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+742 text7 CODE >374:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+743 text7 CODE >375:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+744 text7 CODE >377:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+745 text7 CODE >379:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C11 text6 CODE >148:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C11 text6 CODE >150:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C15 text6 CODE >153:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C16 text6 CODE >155:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C19 text6 CODE >157:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C1B text6 CODE >160:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C1C text6 CODE >161:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C1D text6 CODE >162:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C1E text6 CODE >165:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C20 text6 CODE >166:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C22 text6 CODE >167:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C23 text6 CODE >168:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C24 text6 CODE >169:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C25 text6 CODE >171:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C27 text6 CODE >172:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C28 text6 CODE >172:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C2A text6 CODE >172:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+C2C text6 CODE >173:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+608 text5 CODE >94:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+608 text5 CODE >96:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+60F text5 CODE >97:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+613 text5 CODE >101:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+615 text5 CODE >101:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+619 text5 CODE >101:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+61E text5 CODE >104:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+61E text5 CODE >106:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+61F text5 CODE >109:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+626 text5 CODE >112:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+628 text5 CODE >113:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+629 text5 CODE >114:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+62A text5 CODE >116:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+62C text5 CODE >119:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+62F text5 CODE >121:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+633 text5 CODE >124:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+63D text5 CODE >125:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+64B text5 CODE >127:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+652 text5 CODE >130:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+654 text5 CODE >133:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+657 text5 CODE >134:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+659 text5 CODE >135:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+65A text5 CODE >136:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+65B text5 CODE >137:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+65C text5 CODE >139:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+661 text5 CODE >140:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+667 text5 CODE >140:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+66B text5 CODE >142:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+66D text5 CODE >143:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+66F text5 CODE >143:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+671 text5 CODE >143:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+673 text5 CODE >146:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\mcc_generated_files/memory.c
+F84 text4 CODE >127:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F84 text4 CODE >131:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F86 text4 CODE >132:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F88 text4 CODE >133:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F8E text4 CODE >133:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F92 text4 CODE >136:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+F93 text4 CODE >137:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+FA7 text4 CODE >138:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+FC3 text4 CODE >139:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+FD4 text4 CODE >141:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+FDF text4 CODE >142:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+87 text3 CODE >383:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+89 text3 CODE >384:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+8F text3 CODE >386:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+90 text3 CODE >388:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+95 text3 CODE >389:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+99 text3 CODE >390:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+9E text3 CODE >390:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+A2 text3 CODE >390:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+A6 text3 CODE >392:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+AB text3 CODE >393:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+AE text3 CODE >394:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+AF text3 CODE >395:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+B2 text3 CODE >397:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C7 text3 CODE >398:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+CA text3 CODE >400:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D0 text3 CODE >401:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+D5 text3 CODE >402:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+DA text3 CODE >402:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+DE text3 CODE >402:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E2 text3 CODE >404:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+E7 text3 CODE >405:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EA text3 CODE >406:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EB text3 CODE >407:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EE text3 CODE >409:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+FC text3 CODE >410:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+FF text3 CODE >412:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+104 text3 CODE >413:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+107 text3 CODE >415:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+10D text3 CODE >416:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+111 text3 CODE >420:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+116 text3 CODE >421:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+11A text3 CODE >422:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+11E text3 CODE >424:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+120 text3 CODE >425:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+123 text3 CODE >426:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+124 text3 CODE >427:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+127 text3 CODE >429:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+13C text3 CODE >430:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+13F text3 CODE >432:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+145 text3 CODE >433:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+14A text3 CODE >434:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+14E text3 CODE >436:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+150 text3 CODE >437:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+153 text3 CODE >438:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+154 text3 CODE >439:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+157 text3 CODE >441:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+165 text3 CODE >442:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+168 text3 CODE >444:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+16D text3 CODE >445:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+170 text3 CODE >447:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+177 text3 CODE >452:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+17A text3 CODE >453:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+17B text3 CODE >455:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+17E text3 CODE >456:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+17F text3 CODE >458:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+185 text3 CODE >459:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+190 text3 CODE >460:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+193 text3 CODE >461:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+196 text3 CODE >463:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+19B text3 CODE >464:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1AE text3 CODE >465:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1B1 text3 CODE >466:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1B5 text3 CODE >473:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1BB text3 CODE >474:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1C6 text3 CODE >475:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1CB text3 CODE >476:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1CE text3 CODE >478:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1D3 text3 CODE >479:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1E6 text3 CODE >480:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1EC text3 CODE >489:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1F2 text3 CODE >490:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+1FD text3 CODE >491:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+202 text3 CODE >492:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+205 text3 CODE >494:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+20A text3 CODE >495:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+21D text3 CODE >496:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+223 text3 CODE >501:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+229 text3 CODE >502:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+234 text3 CODE >503:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+239 text3 CODE >504:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+23C text3 CODE >506:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+241 text3 CODE >507:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+254 text3 CODE >508:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+25A text3 CODE >513:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+260 text3 CODE >514:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+26B text3 CODE >515:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+270 text3 CODE >516:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+273 text3 CODE >518:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+278 text3 CODE >519:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+28B text3 CODE >520:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+291 text3 CODE >525:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+297 text3 CODE >526:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2A2 text3 CODE >527:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2A7 text3 CODE >528:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2AA text3 CODE >530:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2AF text3 CODE >531:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2C2 text3 CODE >532:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2C8 text3 CODE >537:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2CE text3 CODE >538:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2D9 text3 CODE >539:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2DE text3 CODE >540:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2E1 text3 CODE >542:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2E6 text3 CODE >543:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2F9 text3 CODE >544:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+2FF text3 CODE >549:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+305 text3 CODE >550:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+310 text3 CODE >551:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+315 text3 CODE >552:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+318 text3 CODE >554:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+31D text3 CODE >555:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+330 text3 CODE >556:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+336 text3 CODE >561:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+33C text3 CODE >562:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+347 text3 CODE >563:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+34C text3 CODE >564:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+34F text3 CODE >566:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+354 text3 CODE >567:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+367 text3 CODE >568:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+36D text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+377 text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+37C text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+37F text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+382 text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+385 text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+388 text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+38B text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+38E text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+391 text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+394 text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+397 text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+39A text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+39D text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+3A0 text3 CODE >575:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+3A3 text3 CODE >576:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+3A9 text3 CODE >577:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+3B6 text3 CODE >578:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+3BC text3 CODE >579:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C2D text2 CODE >115:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C2D text2 CODE >117:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C39 text2 CODE >118:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C44 text2 CODE >119:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+C4C text2 CODE >120:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EAD text1 CODE >253:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EAD text1 CODE >254:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EAE text1 CODE >255:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EB1 text1 CODE >256:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EBE text1 CODE >257:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EC7 text1 CODE >258:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+ECD text1 CODE >259:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+ED6 text1 CODE >260:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EE0 text1 CODE >260:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EE4 text1 CODE >260:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+EE8 text1 CODE >261:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+464 maintext CODE >598:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+464 maintext CODE >600:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+467 maintext CODE >601:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+46A maintext CODE >602:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+46D maintext CODE >603:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+470 maintext CODE >604:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+473 maintext CODE >605:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+476 maintext CODE >610:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+479 maintext CODE >611:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+48E maintext CODE >612:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+49C maintext CODE >614:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+49D maintext CODE >615:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+49E maintext CODE >616:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4A1 maintext CODE >619:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4A4 maintext CODE >624:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4AF maintext CODE >627:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4B4 maintext CODE >627:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4B8 maintext CODE >627:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4BC maintext CODE >629:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4C1 maintext CODE >632:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4C2 maintext CODE >633:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4C5 maintext CODE >636:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4CA maintext CODE >636:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4CE maintext CODE >636:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4D2 maintext CODE >638:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4D5 maintext CODE >643:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4EA maintext CODE >650:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4F1 maintext CODE >668:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+4F5 maintext CODE >671:C:\Users\r.schaefer\Downloads\pic-ir-rx-master\pic-ir-rx-master\MouseBrains8_3trans_take3_122112.X\main.c
+AF2 clrtext CODE >7922:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF2 clrtext CODE >7923:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF3 clrtext CODE >7924:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF3 clrtext CODE >7925:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF4 clrtext CODE >7926:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF5 clrtext CODE >7927:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF6 clrtext CODE >7928:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF7 clrtext CODE >7929:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF8 inittext CODE >7878:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF8 inittext CODE >7879:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF9 inittext CODE >7880:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AF9 inittext CODE >7881:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AFA inittext CODE >7882:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AFB inittext CODE >7883:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AFC inittext CODE >7884:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+AFD inittext CODE >7885:C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 1 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___awdiv@counter 20 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_HEF_persistent_state 1FC0 0 STRCODE 0 _HEF_persistent_state_text dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__LdataBANK1 0 0 ABS 0 dataBANK1 -
+__LdataBANK2 0 0 ABS 0 dataBANK2 -
+__size_of_FLASH_EraseBlock 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hspace_0 1000 0 ABS 0 - -
+__Hspace_1 1C1 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 10010 0 ABS 0 - -
+__HidataBANK1 0 0 ABS 0 idataBANK1 -
+__HidataBANK2 0 0 ABS 0 idataBANK2 -
+__end_of_selectSomething 1F08 0 CODE 0 text12 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PMCON1bits 195 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PWM3DCH 618 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PWM4DCH 61B 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+_INT_CallBack 1672 0 CODE 0 text61 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_T1CONbits 18 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_OPA1_Initialize 1552 0 CODE 0 text42 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_EXT_INT_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_battery_voltage 1C18 0 CODE 0 text25 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_writePersistentState 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_PIN_MANAGER_IOC 1544 0 CODE 0 text59 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_WDT_Initialize 154A 0 CODE 0 text31 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+?_vfprintf 2D 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_LATA 10C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_LATB 10D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_LATC 10E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR0 15 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR1 16 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR2 1A 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR4 415 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_WPUA 20C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_WPUB 20D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_WPUC 20E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+_main 8C8 0 CODE 0 maintext dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_nout A0 0 BANK1 1 bssBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_prec A4 0 BANK1 1 bssBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+btemp 7E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+start 96 0 CODE 0 init C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+_EUSART_Write 1630 0 CODE 0 text24 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR0_InterruptHandler DA 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of___aldiv 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of___awdiv 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_main 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__end_of_TMR0_SetInterruptHandler 15C0 0 CODE 0 text38 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_EUSART_SetFramingErrorHandler 159C 0 CODE 0 text47 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_EUSART_SetOverrunErrorHandler 15A8 0 CODE 0 text46 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+?___lmul 20 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+process_remote_command@code EA 0 BANK1 1 cstackBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_OPTION_REGbits 95 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_writePersistentState 1FC0 0 CODE 0 text4 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_DAC1CON0 118 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_DAC1CON1 119 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__LidataBANK1 0 0 ABS 0 idataBANK1 -
+__LidataBANK2 0 0 ABS 0 idataBANK2 -
+__end_of_EUSART_Initialize 18DE 0 CODE 0 text45 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_readPersistentState 189A 0 CODE 0 text2 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+__size_of_TMR1_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_selectIncrease 196C 0 CODE 0 text13 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_vfpfcnvrt C10 0 CODE 0 text21 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR2_Initialize 160C 0 CODE 0 text34 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+TMR4_LoadPeriodRegister@periodVal 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+DAC_SetOutput@inputData 70 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__HdataCOMMON 0 0 ABS 0 dataCOMMON -
+__size_of_vfpfcnvrt 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+TMR0_SetInterruptHandler@InterruptHandler 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+_selectSomething 1E52 0 CODE 0 text12 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_INT_CallBack 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+___aldiv@divisor 28 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+wtemp0 7E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+writePersistentState@buf 2E 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+writePersistentState@idx 6F 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+main@low_reading_count EC 0 BANK1 1 cstackBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_RC1STAbits 19D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_EUSART_DefaultFramingErrorHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_EUSART_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_OPA1_Initialize 154A 0 CODE 0 text42 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PIN_MANAGER_IOC 1542 0 CODE 0 text59 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR1_DefaultInterruptHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_EUSART_Write 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___aldiv@sign 32 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR4_SetInterruptHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___awdiv@sign 21 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+_vfpfcnvrt B14 0 CODE 0 text21 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pidataCOMMON 6 0 CODE 0 idataCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+setCurrent@DACValue 47 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR4_DefaultInterruptHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR1_DefaultInterruptHandler 1630 0 CODE 0 text55 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+FLASH_EraseBlock@GIEBitValue 75 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ADCON0 9D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ADCON1 9E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ANSELA 18C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ANSELB 18D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ANSELC 18E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR0_DefaultInterruptHandler 4 0 CODE 0 text58 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___awdiv@dividend 75 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_INT_CallBack 168C 0 CODE 0 text61 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR4_DefaultInterruptHandler 1D5A 0 CODE 0 text53 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_BORCON 116 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_selectCurrent 1A02 0 CODE 0 text18 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__LdataCOMMON 0 0 ABS 0 dataCOMMON -
+_lowBattery 1AF8 0 CODE 0 text27 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_CCPR1L 291 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_FVRCONbits 117 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_INTERRUPT_InterruptManager 96 0 CODE 0 intentry dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_initLED 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR1_SetInterruptHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of___lmul 1CE6 0 CODE 0 text10 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_EUSART_Write 1644 0 CODE 0 text24 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_battery_voltage 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_selectIncrease 19B6 0 CODE 0 text13 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_OPA2_Initialize 155A 0 CODE 0 text41 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR4_LoadPeriodRegister 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+_FVRCON 117 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+?_printf 35 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__LnvBANK1 0 0 ABS 0 nvBANK1 -
+__size_of_INT_SetInterruptHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___awdiv@divisor 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+setCurrent@microamps 39 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of___aldiv B14 0 CODE 0 text26 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of___awdiv F4C 0 CODE 0 text11 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+writePersistentState@i 6E 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_INLVLA 38C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_INLVLB 38D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_INLVLC 38E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_INTPPS E10 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_startUp 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_OPTION_REG 95 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___stackhi 21EF 0 ABS 0 - C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+___stacklo 2111 0 ABS 0 - C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+_process_remote_command 10E 0 CODE 0 text3 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+setLEDColor@red 76 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_EUSART_Initialize 189A 0 CODE 0 text45 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__LidataCOMMON 0 0 ABS 0 idataCOMMON -
+__size_of_fputc 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_INT_ISR 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_putch 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+INT_DefaultInterruptHandler@time 72 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR2_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PIN_MANAGER_Initialize 1BB2 0 CODE 0 text39 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+start_initialization 9A 0 CODE 0 cinit dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ODCONA 28C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ODCONB 28D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ODCONC 28E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+FLASH_WriteBlock@flashWordArray 22 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_CCPTMRSbits 29E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_selectSomething 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_EUSART_SetErrorHandler 1584 0 CODE 0 text48 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+FLASH_WriteBlock@GIEBitValue 28 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_setLEDColor 1790 0 CODE 0 text28 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_OSCCON 99 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PMADRH 192 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PMADRL 191 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PMCON2 196 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PMDATH 194 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PMDATL 193 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_selectCurrentValue 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TRISBbits 8D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TRISCbits 8E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___aldiv@quotient 33 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+EUSART_SetOverrunErrorHandler@interruptHandler 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_lowBattery 1B50 0 CODE 0 text27 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR4_SetInterruptHandler 15D8 0 CODE 0 text33 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+setLEDColor@blue 74 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_selectDecrease 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_RA5PPS E95 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_RB7PPS E9F 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_RC1REG 199 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_RC1STA 19D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_OPA1_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_RC4PPS EA4 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_RC5PPS EA5 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_EUSART_SetFramingErrorHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_PIN_MANAGER_IOC 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_EUSART_SetOverrunErrorHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_OPA2_Initialize 1552 0 CODE 0 text41 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+setLEDColor@green 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_SYSTEM_Initialize 196C 0 CODE 0 text30 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_DAC_Initialize 1578 0 CODE 0 text49 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+clear_ram0 15E4 0 CODE 0 clrtext dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pcstackBANK1 E8 0 BANK1 1 cstackBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TX1REG 19A 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TX1STA 19E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_printf 1714 0 CODE 0 text19 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR4_Initialize 173A 0 CODE 0 text32 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR1_SetInterruptHandler 15CC 0 CODE 0 text36 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_WDTCON 97 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+fputc@fp 77 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_dac_value AC 0 BANK1 1 bssBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_initLED FD4 0 CODE 0 text29 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+__size_of_selectCurrent 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 BANK7 1 bank7 -
+__Hbank8 0 0 BANK8 1 bank8 -
+__Hbank9 0 0 BANK9 1 bank9 -
+__Hcinit 10E 0 CODE 0 cinit -
+_INT_DefaultInterruptHandler CE8 0 CODE 0 text62 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+__Hbank10 0 0 BANK10 1 bank10 -
+__Hbank11 0 0 BANK11 1 bank11 -
+__Hbank12 0 0 BANK12 1 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+_currentIsOn BF 0 BANK1 1 dataBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+FLASH_WriteBlock@writeAddr 20 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+_BAUD1CON 19F 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10012 0 CONFIG 4 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 BANK7 1 bank7 -
+__Lbank8 0 0 BANK8 1 bank8 -
+__Lbank9 0 0 BANK9 1 bank9 -
+__Lcinit 9A 0 CODE 0 cinit -
+EUSART_SetErrorHandler@interruptHandler 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+init_ram 15F0 0 CODE 0 inittext dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__H_HEF_persistent_state_text 2000 0 STRCODE 0 _HEF_persistent_state_text -
+__end_of_startUp 1DD2 0 CODE 0 text1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Linittext 0 0 ABS 0 inittext -
+_INTCONbits B 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 96 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 96 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 10D4 0 STRCODE 0 stringtext1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pstringtext2 10D8 0 STRCODE 0 stringtext2 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pstringtext3 FD4 0 STRCODE 0 stringtext3 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pstringtext4 1006 0 STRCODE 0 stringtext4 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pstringtext5 1034 0 STRCODE 0 stringtext5 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pstringtext6 105E 0 STRCODE 0 stringtext6 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pstringtext7 1086 0 STRCODE 0 stringtext7 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pstringtext8 10AE 0 STRCODE 0 stringtext8 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pstringtext9 0 0 STRCODE 0 stringtext9 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pnvBANK1 D4 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_DAC_Initialize 1584 0 CODE 0 text49 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___lmul 1C7E 0 CODE 0 text10 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PWM4CONbits 61C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+int$flags 7E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_INT_ISR 1564 0 CODE 0 text60 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_setCurrent 77A 0 CODE 0 text9 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_selectCurrent 1A52 0 CODE 0 text18 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_WDT_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PR2 1B 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PR4 416 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__S0 FE0 0 ABS 0 - -
+__S1 1C1 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__size_of_TMR0_ISR 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_LATCH_Initialize 1644 0 CODE 0 text50 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR1_ISR 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR4_ISR 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR0_DefaultInterruptHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_selectFrequencyValue 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__p_HEF_persistent_state_text 1FC0 0 STRCODE 0 _HEF_persistent_state_text dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR4_Initialize 1714 0 CODE 0 text32 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR0_DefaultInterruptHandler 6 0 CODE 0 text58 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_writePersistentState 1F08 0 CODE 0 text4 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__HidataCOMMON 0 0 ABS 0 idataCOMMON -
+_frequencyIndex E4 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_SYSTEM_Initialize 1922 0 CODE 0 text30 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_selectFrequencyValue 1A02 0 CODE 0 text14 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_OPA2_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_frequencyValue 140 0 BANK2 1 dataBANK2 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_oneHzCounter B2 0 BANK1 1 bssBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PWM3CONbits 619 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__HnvBANK1 0 0 ABS 0 nvBANK1 -
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\R2FC6~1.SCH\AppData\Local\Temp\xcAsba0.o
+_DAC_SetOutput 1564 0 CODE 0 text56 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+startUp@i 22 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+setFrequency@PR4_val 3A 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pdataBANK1 BA 0 BANK1 1 dataBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pdataBANK2 140 0 BANK2 1 dataBANK2 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_selectFrequency 1AF8 0 CODE 0 text15 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_HEF_persistent_state 2000 0 STRCODE 0 _HEF_persistent_state_text dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of___lmul 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+__LbssBANK3 0 0 ABS 0 bssBANK3 -
+__end_of_process_remote_command 77A 0 CODE 0 text3 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+__Lstringtext2 0 0 ABS 0 stringtext2 -
+__Lstringtext3 0 0 ABS 0 stringtext3 -
+__Lstringtext4 0 0 ABS 0 stringtext4 -
+__Lstringtext5 0 0 ABS 0 stringtext5 -
+__Lstringtext6 0 0 ABS 0 stringtext6 -
+__Lstringtext7 0 0 ABS 0 stringtext7 -
+__Lstringtext8 0 0 ABS 0 stringtext8 -
+__Lstringtext9 0 0 ABS 0 stringtext9 -
+_INT_InterruptHandler DC 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+vfpfcnvrt@fmt 25 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PIE1bits 91 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PIE2bits 92 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_EXT_INT_Initialize 1672 0 CODE 0 text43 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+EUSART_SetFramingErrorHandler@interruptHandler 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+FLASH_WriteBlock@blockStartAddr 26 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR0_ISR 16AA 0 CODE 0 text57 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR1_ISR 1762 0 CODE 0 text54 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext10 1C7E 0 CODE 0 text10 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext11 E8C 0 CODE 0 text11 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext12 1E52 0 CODE 0 text12 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext13 196C 0 CODE 0 text13 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext14 19B6 0 CODE 0 text14 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext15 1AA4 0 CODE 0 text15 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext16 18DE 0 CODE 0 text16 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext17 1A52 0 CODE 0 text17 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext18 1A02 0 CODE 0 text18 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext19 16F0 0 CODE 0 text19 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext20 1B50 0 CODE 0 text20 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext21 B14 0 CODE 0 text21 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext22 1DD2 0 CODE 0 text22 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext23 15D8 0 CODE 0 text23 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext24 1630 0 CODE 0 text24 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext25 1C18 0 CODE 0 text25 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext26 9F4 0 CODE 0 text26 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext27 1AF8 0 CODE 0 text27 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext28 1790 0 CODE 0 text28 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext29 F4C 0 CODE 0 text29 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext30 1922 0 CODE 0 text30 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext31 1544 0 CODE 0 text31 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext32 1714 0 CODE 0 text32 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext33 15CC 0 CODE 0 text33 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext34 160C 0 CODE 0 text34 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext35 17BE 0 CODE 0 text35 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext36 15C0 0 CODE 0 text36 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext37 16CC 0 CODE 0 text37 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext38 15B4 0 CODE 0 text38 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext39 1BB2 0 CODE 0 text39 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext40 15FC 0 CODE 0 text40 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext41 1552 0 CODE 0 text41 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext42 154A 0 CODE 0 text42 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext43 165A 0 CODE 0 text43 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext44 15A8 0 CODE 0 text44 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext45 189A 0 CODE 0 text45 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext46 159C 0 CODE 0 text46 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext47 1590 0 CODE 0 text47 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext48 1584 0 CODE 0 text48 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext49 1578 0 CODE 0 text49 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext50 1644 0 CODE 0 text50 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext52 168C 0 CODE 0 text52 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext53 1CE6 0 CODE 0 text53 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext54 1762 0 CODE 0 text54 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext55 161C 0 CODE 0 text55 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext56 1564 0 CODE 0 text56 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext57 16AA 0 CODE 0 text57 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext58 4 0 CODE 0 text58 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext59 1542 0 CODE 0 text59 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext60 155A 0 CODE 0 text60 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext61 1672 0 CODE 0 text61 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext62 CE8 0 CODE 0 text62 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR4_ISR 168C 0 CODE 0 text52 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_setCurrent 8C8 0 CODE 0 text9 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_PIN_MANAGER_Initialize 1C18 0 CODE 0 text39 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___aldiv 9F4 0 CODE 0 text26 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___awdiv E8C 0 CODE 0 text11 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR0_Initialize 16F0 0 CODE 0 text37 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lbank10 0 0 BANK10 1 bank10 -
+__Lbank11 0 0 BANK11 1 bank11 -
+__Lbank12 0 0 BANK12 1 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__pmaintext 8C8 0 CODE 0 maintext dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lbigram 0 0 ABS 0 bigram -
+___lmul@multiplier 20 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_EUSART_SetErrorHandler 1590 0 CODE 0 text48 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+_printf 16F0 0 CODE 0 text19 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR0_ISR 16CC 0 CODE 0 text57 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR1_ISR 1790 0 CODE 0 text54 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR4_ISR 16AA 0 CODE 0 text52 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hinittext 0 0 ABS 0 inittext -
+_LATBbits 10D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_LATCbits 10E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+TMR4_SetInterruptHandler@InterruptHandler 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_lowBattery 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+FLASH_EraseBlock@startAddr 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_OPA1CON 511 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_OPA2CON 515 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR0_SetInterruptHandler 15B4 0 CODE 0 text38 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_LATCH_Initialize 165A 0 CODE 0 text50 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_selectIncrease 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PWM4DCLbits 61A 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_EUSART_FramingErrorHandler E2 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_EUSART_OverrunErrorHandler E0 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_vfprintf 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_EXT_INT_Initialize 165A 0 CODE 0 text43 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_ofmain@BATTERY_NUM_LOW_READINGS 10DC 0 STRCODE 0 stringtext2 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR4_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_LATCH_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_OSCSTAT 9A 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_OSCTUNE 98 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ADCON0bits 9D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_selectFrequency 1AA4 0 CODE 0 text15 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_EUSART_ErrorHandler DE 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+?_vfpfcnvrt 25 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__pbssCOMMON 78 0 COMMON 1 bssCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+_PIR1bits 11 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PIR2bits 12 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lend_init 96 0 CODE 0 end_init -
+_EUSART_DefaultErrorHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__end_of_setLEDColor 17BE 0 CODE 0 text28 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+printf@ap 38 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_EUSART_SetFramingErrorHandler 1590 0 CODE 0 text47 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_EUSART_SetOverrunErrorHandler 159C 0 CODE 0 text46 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+end_of_initialization 106 0 CODE 0 cinit dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR0_Initialize 16CC 0 CODE 0 text37 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hintentry 96 0 CODE 0 intentry -
+__size_of_printf 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+fputc@c 75 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TX1STAbits 19E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_PWM3DCLbits 617 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR4_LoadPeriodRegister 156E 0 CODE 0 text8 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 22 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+?___aldiv 28 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+?___awdiv 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+setCurrent@Vdac_mv 45 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_dc_frequency_flag 7A 0 COMMON 1 dataCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+vfprintf@fmt 2D 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+setFrequency@frequency_hz 37 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec -
+TMR1_SetInterruptHandler@InterruptHandler 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_INT_SetInterruptHandler 15A8 0 CODE 0 text44 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR4_LoadPeriodRegister 1578 0 CODE 0 text8 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__L_HEF_persistent_state_text 1FC0 0 STRCODE 0 _HEF_persistent_state_text -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+__HbssBANK3 0 0 ABS 0 bssBANK3 -
+FLASH_WriteBlock@i 29 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_DAC_SetOutput 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_initLED F4C 0 CODE 0 text29 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_INT_SetInterruptHandler 15B4 0 CODE 0 text44 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+vfpfcnvrt@ap 26 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+vfpfcnvrt@fp 2C 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext1 1D5A 0 CODE 0 text1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext2 185A 0 CODE 0 text2 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext3 10E 0 CODE 0 text3 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext4 1F08 0 CODE 0 text4 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext5 C10 0 CODE 0 text5 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext6 1822 0 CODE 0 text6 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext7 DC0 0 CODE 0 text7 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext8 156E 0 CODE 0 text8 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__ptext9 77A 0 CODE 0 text9 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_FLASH_WriteBlock C10 0 CODE 0 text5 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+vfprintf@ap 2F 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+vfprintf@fp 32 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+vfprintf@cfmt 33 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR4_InterruptHandler D8 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___aldiv@dividend 2C 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_selectDecrease 18DE 0 CODE 0 text16 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ir_code B4 0 BANK1 1 bssBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_vfprintf 1B50 0 CODE 0 text20 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_currentIndex E6 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_currentValue C0 0 BANK1 1 dataBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_readPersistentState 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_FLASH_EraseBlock 1822 0 CODE 0 text6 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR1_Initialize 17EE 0 CODE 0 text35 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_setFrequency DC0 0 CODE 0 text7 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_T4CONbits 417 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+__Hstringtext2 0 0 ABS 0 stringtext2 -
+__Hstringtext3 0 0 ABS 0 stringtext3 -
+__Hstringtext4 0 0 ABS 0 stringtext4 -
+__Hstringtext5 0 0 ABS 0 stringtext5 -
+__Hstringtext6 0 0 ABS 0 stringtext6 -
+__Hstringtext7 0 0 ABS 0 stringtext7 -
+__Hstringtext8 0 0 ABS 0 stringtext8 -
+__Hstringtext9 0 0 ABS 0 stringtext9 -
+_startUp 1D5A 0 CODE 0 text1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_vfprintf 1BB2 0 CODE 0 text20 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_SLRCONA 30C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_SLRCONB 30D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_SLRCONC 30E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_interfaceState 78 0 COMMON 1 bssCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+EUSART_Write@txData 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_DAC_SetOutput 156E 0 CODE 0 text56 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of__initialization 106 0 CODE 0 cinit dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_INT_ISR 155A 0 CODE 0 text60 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+_timer0ReloadVal 79 0 COMMON 1 bssCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pidataBANK1 17EE 0 CODE 0 idataBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pidataBANK2 173A 0 CODE 0 idataBANK2 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_SP1BRGH 19C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_SP1BRGL 19B 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+_timer1ReloadVal D6 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___lmul@product 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+INT_SetInterruptHandler@InterruptHandler 73 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR1_DefaultInterruptHandler 161C 0 CODE 0 text55 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_EUSART_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___lmul@multiplicand 24 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_selectFrequency 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+main@batt_mv EE 0 BANK1 1 cstackBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_selectCurrentValue 1AA4 0 CODE 0 text17 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR4_DefaultInterruptHandler 1CE6 0 CODE 0 text53 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hend_init 9A 0 CODE 0 end_init -
+__size_of_TMR0_SetInterruptHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+___aldiv@counter 31 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_HEF_persistent_state_absaddr FE0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_process_remote_command 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_INT_DefaultInterruptHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_setFrequency 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+putch@txData 74 0 COMMON 1 cstackCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_DAC_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_main 9F4 0 CODE 0 maintext dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+?_battery_voltage 37 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_readPersistentState 185A 0 CODE 0 text2 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_selectDecrease 1922 0 CODE 0 text16 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+printf@fmt 35 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_ADRES 9B 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_fputc 1E52 0 CODE 0 text22 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_RXPPS E24 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_T2CON 1C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_T4CON 417 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TRISA 8C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TRISB 8D 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TRISC 8E 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_putch 15E4 0 CODE 0 text23 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_TMR0_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_TMR1_Initialize 17BE 0 CODE 0 text35 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_flags A6 0 BANK1 1 bssBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_fputc 1DD2 0 CODE 0 text22 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_setCurrent 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_battery_voltage 1C7E 0 CODE 0 text25 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR4_SetInterruptHandler 15CC 0 CODE 0 text33 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_putch 15D8 0 CODE 0 text23 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_width A2 0 BANK1 1 bssBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_eusartRxLastError B3 0 BANK1 1 bssBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_WDT_Initialize 1544 0 CODE 0 text31 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_ofmain@BATTERY_THRESHOLD 10D8 0 STRCODE 0 stringtext1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__HdataBANK1 0 0 ABS 0 dataBANK1 -
+__HdataBANK2 0 0 ABS 0 dataBANK2 -
+__size_of_EUSART_SetErrorHandler 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_OSCILLATOR_Initialize 160C 0 CODE 0 text40 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_FLASH_WriteBlock CE8 0 CODE 0 text5 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__initialization 9A 0 CODE 0 cinit dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pbssBANK2 120 0 BANK2 1 bssBANK2 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pbssBANK3 1A0 0 BANK3 1 bssBANK3 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__pdataCOMMON 7A 0 COMMON 1 dataCOMMON dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+setCurrent@Vdd_mv 3B 0 BANK0 1 cstackBANK0 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_INT_DefaultInterruptHandler DC0 0 CODE 0 text62 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_selectFrequencyValue 19B6 0 CODE 0 text14 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_T2CONbits 1C 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_setFrequency E8C 0 CODE 0 text7 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_selectCurrentValue 1A52 0 CODE 0 text17 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_FLASH_WriteBlock 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR1_SetInterruptHandler 15C0 0 CODE 0 text36 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_CCP1CONbits 293 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_FLASH_EraseBlock 185A 0 CODE 0 text6 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__size_of_setLEDColor 0 0 ABS 0 - dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_TMR1_InterruptHandler D4 0 BANK1 1 nvBANK1 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+_OSCILLATOR_Initialize 15FC 0 CODE 0 text40 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+__end_of_TMR2_Initialize 161C 0 CODE 0 text34 dist/NewConfiguration/production\MouseBrains8_3trans_take3_122112.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 EAD 1D5A 3C 2
+text2 0 C2D 185A 20 2
+text4 0 F84 1F08 5C 2
+text6 0 C11 1822 1C 2
+text8 0 AB7 156E 5 2
+text10 0 E3F 1C7E 34 2
+text12 0 F29 1E52 5B 2
+text13 0 CB6 196C 25 2
+text14 0 CDB 19B6 26 2
+text15 0 D52 1AA4 2A 2
+text16 0 C6F 18DE 22 2
+text17 0 D29 1A52 29 2
+text18 0 D01 1A02 28 2
+text19 0 B78 16F0 12 2
+text20 0 DA8 1B50 31 2
+text22 0 EE9 1DD2 40 2
+text23 0 AEC 15D8 6 2
+text24 0 B18 1630 A 2
+text25 0 E0C 1C18 33 2
+text27 0 D7C 1AF8 2C 2
+text28 0 BC8 1790 17 2
+text30 0 C91 1922 25 2
+text31 0 AA2 1544 3 2
+text32 0 B8A 1714 13 2
+text33 0 AE6 15CC 6 2
+text34 0 B06 160C 8 2
+text35 0 BDF 17BE 18 2
+text36 0 AE0 15C0 6 2
+text37 0 B66 16CC 12 2
+text38 0 ADA 15B4 6 2
+text39 0 DD9 1BB2 33 2
+text40 0 AFE 15FC 8 2
+text41 0 AA9 1552 4 2
+text42 0 AA5 154A 4 2
+text43 0 B2D 165A C 2
+text44 0 AD4 15A8 6 2
+text45 0 C4D 189A 22 2
+text46 0 ACE 159C 6 2
+text47 0 AC8 1590 6 2
+text48 0 AC2 1584 6 2
+text49 0 ABC 1578 6 2
+text50 0 B22 1644 B 2
+text52 0 B46 168C F 2
+text53 0 E73 1CE6 3A 2
+text54 0 BB1 1762 17 2
+text55 0 B0E 161C A 2
+text56 0 AB2 1564 5 2
+text57 0 B55 16AA 11 2
+text59 0 AA1 1542 1 2
+text60 0 AAD 155A 5 2
+text61 0 B39 1672 D 2
+idataCOMMON 0 3 6 1 2
+cstackCOMMON 1 70 70 B 1
+cstackBANK0 1 20 20 50 1
+inittext 0 AF8 15F0 6 2
+stringtext3 0 7EA FD4 84 2
+intentry 0 4 8 7E6 2
+reset_vec 0 0 0 3 2
+bssBANK1 1 A0 A0 50 1
+bssBANK2 1 120 120 34 1
+bssBANK3 1 1A0 1A0 21 1
+idataBANK1 0 BF7 17EE 1A 2
+idataBANK2 0 B9D 173A 14 2
+_HEF_persistent_state_text 0 FE0 1FC0 20 2
+clrtext 0 AF2 15E4 6 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
